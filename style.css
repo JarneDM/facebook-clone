@@ -6,8 +6,8 @@ body{
 
 .text {
     position: absolute;
-    top: 50%;
-    left: 270px; 
+    top: 45%;
+    left: 25%; 
     transform: translateY(-50%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -74,7 +74,20 @@ body{
     border: 0px;
     color: white;
     background-color: rgb(49, 96, 191);
+
+
 }
+
+#login-button:hover{
+    background-color: rgb(51, 109, 226);
+    cursor:pointer;
+}
+
+#link-landing{
+    text-decoration: none;
+    color: white;
+}
+
 
 #forgot-acc{
     margin-left: 150px;
