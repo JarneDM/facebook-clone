@@ -1,0 +1,15 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text{
+    color: rgb(118, 118, 250);
+    font-size: larger;
+}
+
+.container{
+    width: 450px;
+    height: 600px;
+    border: 2px solid black;
+    background-color: white;
+}
