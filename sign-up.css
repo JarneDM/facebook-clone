@@ -1,16 +1,23 @@
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .text{
     color: rgb(118, 118, 250);
     font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 45%;
 }
 
 .container{
+    margin-left: 35%;
     width: 450px;
     height: 650px;
     border: 2px solid black;
     background-color: white;
 }
 
+.create{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para{
+    font-size: medium;
+    color: grey;
+}
