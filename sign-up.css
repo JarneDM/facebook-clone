@@ -1,23 +1,47 @@
+body{
+    background-color:rgb(222, 231, 231);
+}
+
 .text{
     color: rgb(118, 118, 250);
-    font-size: larger;
+    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 45%;
+    margin-left: 43%;
 }
 
 .container{
     margin-left: 35%;
-    width: 450px;
+    width: 425px;
     height: 650px;
     border: 2px solid black;
+    border-radius: 5px;
     background-color: white;
 }
 
-.create{
+.ninja-h2{
+    margin-bottom: 5px;
+    margin-top: 3px;
+    padding-left:20%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .para{
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 18%;
     font-size: medium;
     color: grey;
 }
+
+.input-si{
+    padding-left: 5px;
+    margin: 5px;
+    height: 25px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#names{
+    width: 190px;
+}
+
