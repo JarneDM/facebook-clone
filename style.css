@@ -106,3 +106,7 @@ body{
     color: white;
     background-color: green;
 }
+
+#account-button:hover{
+  background-color: rgb(0, 158, 0);
+}
