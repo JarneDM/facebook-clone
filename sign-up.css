@@ -1,5 +1,6 @@
 body{
     background-color:rgb(222, 231, 231);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .text{
@@ -70,6 +71,7 @@ body{
     height: 30px;
     width: 130px;
     border-radius: 5px;
+    border-color: grey;
 }
 
 #month{
@@ -77,6 +79,7 @@ body{
     height: 30px;
     width: 130px;
     border-radius: 5px;
+    border-color: grey;
 }
 
 #Year{
@@ -84,10 +87,7 @@ body{
     height: 30px;
     width: 130px;
     border-radius: 5px;
-}
-
-.gender{
-
+    border-color: grey;
 }
 
 #gender{
@@ -98,9 +98,22 @@ body{
     margin-bottom: 5px;
 }
 
-.spans{
-    border: 1px solid black;
+.spans {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid grey;
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
-}
+  }
+  
+  .sex {
+    width: 95px;
+    margin-right: 5px;
+  }
+  
+  ._sex {
+    width: auto;
+    margin-left: 0;
+  }
+  
