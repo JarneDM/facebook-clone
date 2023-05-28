@@ -111,6 +111,7 @@ body{
   .sex {
     width: 95px;
     margin-right: 5px;
+    cursor: pointer;
   }
   
   ._sex {
@@ -137,6 +138,11 @@ body{
     color: white;
     font-size: large;
 }
+
+.register:hover{
+    background-color:  rgb(12, 195, 12);
+    cursor: pointer;
+}
   
 .already{
     margin-left: 25%;
@@ -144,3 +150,8 @@ body{
     font-size: large;
     text-decoration: none;
 }
+
+.already:hover{
+    text-decoration: underline;
+}
+
