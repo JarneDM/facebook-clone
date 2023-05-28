@@ -20,20 +20,21 @@ body{
     background-color: white;
 }
 
-.ninja-h2{
-    margin-bottom: 5px;
+.ninja-h2 {
     margin-top: 3px;
-    padding-left:20%;
+    padding-left: 20%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.para{
+  }
+  
+  .para {
+    margin-top: 0;
     margin-bottom: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 18%;
     font-size: medium;
     color: grey;
-}
+  }
+  
 
 .input-si{
     padding-left: 5px;
