@@ -2,14 +2,16 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
 .navbar {
     background-color: #3b5998;
     padding: 10px;
-    display: flex;
-    justify-content: center;
     border-radius: 5px;
     width: 800px;
-    margin-left: 25%;
   }
   
   .navbar-nav {
