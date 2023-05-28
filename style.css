@@ -89,10 +89,16 @@ body{
 }
 
 
-#forgot-acc{
+#forgot-password{
     margin-left: 150px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
+    color: blue;
+}
+
+#forgot-password:hover{
+  cursor: pointer;
+  color: rgb(89, 89, 255);
 }
 
 
@@ -109,4 +115,5 @@ body{
 
 #account-button:hover{
   background-color: rgb(0, 158, 0);
+  cursor: pointer;
 }
