@@ -1,0 +1,43 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #3b5998;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    margin-left: 25%;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-right: 50px; /* Increase the margin value for more space */
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .nav-link:hover {
+    background-color: #fff;
+    color: #3b5998;
+  }
+
+  #settings{
+    margin-right: 0;
+  }
+  
+  
+  
