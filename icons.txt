@@ -1,0 +1,9 @@
+fas fa-sign-out-alt -> &#xf2f5;
+
+fas fa-sign-in-alt -> &#xf2f6;
+
+far fa-share-square -> &#xf14d;
+
+&#xf01c;
+
+fas fa-door-open -> &#xf52b;
