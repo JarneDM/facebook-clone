@@ -52,24 +52,50 @@ body{
   background-color: rgb(255, 255, 255);
 }
 
-.pfp{
+.pfp {
   height: 35px;
   width: 35px;
   padding-bottom: 0;
   padding-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  float: left;
 }
 
-.name{
+.name-pfp {
+  display: flex;
+  align-items: center;
+}
+
+.name {
   padding-left: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.date-img {
+  color: grey;
+  font-size: small;
+  padding-left: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0; /* Set margin-top to 0 to reduce the space */
+  margin-bottom: 0;
 }
 
 .post-one,
-.post-two{
+.post-two {
   border: 1px solid grey;
   border-radius: 5px;
   margin: 5px;
-  margin: 5px;
 }
+
+.img{
+  width: fit-content;
+}
+
+
   
   
