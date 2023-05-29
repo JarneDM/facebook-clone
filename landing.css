@@ -38,7 +38,7 @@ body{
     color: #3b5998;
   }
 
-  #settings{
+  #log-out{
     margin-right: 0;
   }
   
@@ -46,7 +46,20 @@ body{
   width: 600px;
   height: 1200px;
   margin: 0 auto;
-  background-color: rgb(230, 228, 228);
+  border: 1px solid grey;
+  background-color: rgb(255, 255, 255);
+}
+
+.pfp{
+  height: 35px;
+  width: 35px;
+  padding-bottom: 0;
+  padding-left: 10px;
+}
+
+.name{
+  padding-left: 5px;
+  padding-bottom: 5px;
 }
   
   
