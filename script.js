@@ -9,3 +9,14 @@ genderOptions.forEach(option => {
     });
   });
 });
+
+
+function toggleLike() {
+  let likeButton = document.getElementById('like-btn');
+  likeButton.classList.toggle('liked');
+}
+
+function toggleLikeTwo() {
+  let likeButton = document.getElementById('like-btn2');
+  likeButton.classList.toggle('liked');
+}

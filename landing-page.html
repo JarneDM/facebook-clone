@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook Clone</title>
     <link rel="stylesheet" href="landing.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
@@ -42,11 +42,13 @@
             <img class="pfp" src="pfp/david-pfp.png" alt="">
             <p class="name">David Goggins</p>
           </div>
-          <p class="description">Beautiful day outside</p>
           <hr>
+          <p class="description">Beautiful day outside</p>
+          
           
           <p><img class="img" src="img/david.jpg" alt="david-goggins-img"></p>
-          <p>likes etc comes here</p>
+          <hr>
+          <button class="like-btn" id="like-btn" onclick="toggleLike()"><i class="fas fa-thumbs-up"></i></button>
         </div>
       </div>
     
@@ -56,14 +58,16 @@
             <img class="pfp" src="pfp/gregory2.png" alt="">
             <p class="name">Gregory McGyver</p>
           </div>
-          
-          <p class="description">Me when i was younger...</p>
           <hr>
-          <p><img src="img/gregory.jpg" alt="gregory image"></p>
-          <p>likes</p>
+          <p class="description">Me when i was younger...</p>
+          
+          <p><img class="img" src="img/gregory.jpg" alt="gregory image"></p>
+          <hr>
+          <button class="like-btn2" id="like-btn2" onclick="toggleLikeTwo()"><i class="fas fa-thumbs-up"></i></button>
         </div>
       </div>
     </div>
     
+    <script src="script.js"></script>
 </body>
 </html>
