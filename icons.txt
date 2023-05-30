@@ -7,3 +7,6 @@ far fa-share-square -> &#xf14d;
 &#xf01c;
 
 fas fa-door-open -> &#xf52b;
+
+	fa fa-bookmark	&#xf02e;	
+fa fa-bookmark-o	&#xf097;
