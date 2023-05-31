@@ -31,7 +31,7 @@
             class="input-si"
             id="names"
             id="first-name"
-            required>
+            required="required">
 
             <input 
             type="text"
@@ -39,7 +39,7 @@
             name="Name"
             class="input-si"
             id="names"
-            required>
+            required="required">
 
             <br />
 
@@ -49,7 +49,7 @@
             name="email"
             class="input-si"
             id="email"
-            required>
+            required="required">
 
             <br>
 
@@ -59,7 +59,16 @@
             name="password"
             class="input-si"
             id="password"
-            required
+            required="required"
+            >
+
+            <input 
+            type="password"
+            placeholder="Confirm Password"
+            name="password"
+            class="input-si"
+            id="confirm-password"
+            required="required"
             >
 
             <br>
@@ -260,7 +269,7 @@
             </p>
             
             <a href="landing-page.html">
-                <button class="register">Register</button>
+                <button type="submit" class="register">Register</button>
             </a>
             
 

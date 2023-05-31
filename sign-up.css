@@ -13,7 +13,7 @@ body{
 .container{
     margin-left: 40%;
     width: 425px;
-    height: 650px;
+    height: 690px;
     border: 0px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);;
     border-radius: 5px;
@@ -55,6 +55,10 @@ body{
 }
 
 #password{
+    width: 95%;
+}
+
+#confirm-password{
     width: 95%;
 }
 
