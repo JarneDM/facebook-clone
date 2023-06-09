@@ -15,6 +15,14 @@ body{
     margin-top: 5px;
     margin-bottom: 10px;
   }
+
+  @media (max-width: 600px) {
+    .navbar {
+      max-width: 600px; 
+      font-size: small;
+      margin: 0;
+    }
+  }
   
   .navbar-nav {
     list-style: none;
@@ -50,6 +58,12 @@ body{
   margin: 0 auto;
   border: 0px;
   background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 600px) {
+  .content {
+    margin-right: 10px; 
+  }
 }
 
 .pfp {
