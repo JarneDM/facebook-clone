@@ -48,11 +48,11 @@
           
           <p><img class="img" src="img/david.jpg" alt="david-goggins-img"></p>
           <hr>
-          <button class="like-btn" id="like-btn" onclick="toggleLike()"><i class="fas fa-thumbs-up"></i></button>
+          <button class="like-btn" onclick="toggleLike(this)" data-counter="numLikes1"><i class="fas fa-thumbs-up"></i></button><span class="numLikes" id="numLikes1">0</span>
         </div>
       </div>
     
-      <div class="post-two">
+      <div class="post-one">
         <div class="gregory">
           <div class="name-pfp">
             <img class="pfp" src="pfp/gregory2.png" alt="">
@@ -63,7 +63,7 @@
           
           <p><img class="img" src="img/gregory.jpg" alt="gregory image"></p>
           <hr>
-          <button class="like-btn2" id="like-btn2" onclick="toggleLikeTwo()"><i class="fas fa-thumbs-up"></i></button>
+          <button class="like-btn" onclick="toggleLike(this)" data-counter="numLikes2"><i class="fas fa-thumbs-up"></i></button><span class="numLikes" id="numLikes2">0</span>
         </div>
       </div>
     </div>

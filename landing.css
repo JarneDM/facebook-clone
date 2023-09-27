@@ -58,6 +58,7 @@ body{
   margin: 0 auto;
   border: 0px;
   background-color: rgb(255, 255, 255);
+  padding: 1.5em;
 }
 
 @media (max-width: 600px) {
@@ -99,11 +100,11 @@ body{
   margin-bottom: 0;
 }
 
-.post-one,
-.post-two {
+.post-one {
   border: 1px solid grey;
   border-radius: 5px;
   margin: 5px;
+  margin-bottom: 1.5em;
 }
 
 .img{
